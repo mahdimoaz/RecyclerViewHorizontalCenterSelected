@@ -1,7 +1,6 @@
-# RecyclerViewHorizontalCenterSelected
+**RecyclerViewHorizontalCenterSelected**
 
-====================
-Learn how to create a custom horizontal recyclerview with text in Android studio.
+Learn how to create a custom horizontal Ceneter Selected recyclerview with text in Android studio.
 
 I will show how to create a horizontal list view of text which is scrollable along the x-axis in Android Studio as shown below. Also, display a toast message on item selected center.
 
@@ -9,6 +8,7 @@ If you are a newbie to RecyclerView class, I will partially highlight some of th
 
 Contain the vertical adapter class and the list of text added to the vertical recycler view as shown below.
 
+**MainActivity.java**
    public class MainActivity extends AppCompatActivity implements ItemListener {
     RecyclerViewHorizontalCustom recyclerViewHorizontalCustom;
     LinearLayoutManager layoutManager;
@@ -46,8 +46,8 @@ Contain the vertical adapter class and the list of text added to the vertical re
     }
 }
 
+Add **RecyclerViewHorizontalCustom** to **activity_main.xml**
 
-Add RecyclerViewHorizontalCustom to Xml
 
 <ir.karsu.horizontalcenterselected.RecyclerViewHorizontalCustom
         android:layout_width="match_parent"
@@ -56,8 +56,7 @@ Add RecyclerViewHorizontalCustom to Xml
         android:layout_gravity="center"
         android:layout_margin="16dp"
         />
-    
-
+   
 
 License
 ---------------------
