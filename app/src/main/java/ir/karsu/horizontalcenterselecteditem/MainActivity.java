@@ -30,7 +30,13 @@ public class MainActivity extends AppCompatActivity implements ItemListener {
         recyclerViewHorizontalCustom.setHasFixedSize(true);
         recyclerViewHorizontalCustom.setAmountList(amountList);
         recyclerViewHorizontalCustom.init(MainActivity.this, MainActivity.this, R.layout.item_amount, getResources().getDimension(R.dimen.width_item_amount_with_padding), R.drawable.rectangle_round_full_gray, R.drawable.rectangle_round_red);
-            // recyclerViewHorizontalCustom.scrollToX(5);
+
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    recyclerViewHorizontalCustom.scrollToX(5);
+                }
+            },500);
 
 
     }
