@@ -9,7 +9,7 @@ If you are a newbie to RecyclerView class, I will partially highlight some of th
 Contain the vertical adapter class and the list of text added to the vertical recycler view as shown below.
 
 **MainActivity.java**
-
+```java
    public class MainActivity extends AppCompatActivity implements ItemListener {
     RecyclerViewHorizontalCustom recyclerViewHorizontalCustom;
     LinearLayoutManager layoutManager;
@@ -46,9 +46,13 @@ Contain the vertical adapter class and the list of text added to the vertical re
         Toast.makeText(this, amount, Toast.LENGTH_SHORT).show();
     }
 }
+```
 
+## Usage
 
-Add **RecyclerViewHorizontalCustom** to **activity_main.xml**
+* In XML layout: 
+
+```xml
 
 
 <ir.karsu.horizontalcenterselected.RecyclerViewHorizontalCustom
@@ -58,7 +62,13 @@ Add **RecyclerViewHorizontalCustom** to **activity_main.xml**
         android:layout_gravity="center"
         android:layout_margin="16dp"
         />
-   
+```  
+
+* Scroll To Position
+
+```java
+     recyclerViewHorizontalCustom.scrollToX(5);
+```
 
 License
 ---------------------
