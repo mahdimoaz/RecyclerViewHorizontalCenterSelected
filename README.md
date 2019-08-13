@@ -70,6 +70,9 @@ Contain the vertical adapter class and the list of text added to the vertical re
      recyclerViewHorizontalCustom.scrollToX(5);
 ```
 
+![](https://user-images.githubusercontent.com/13780989/62929695-36b21b00-bdd0-11e9-9bc6-10ce15892e1d.jpg)
+
+
 License
 ---------------------
 Copyright 2019 Mahdi SabbaghZadeh
