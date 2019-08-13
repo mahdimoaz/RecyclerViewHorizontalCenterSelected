@@ -8,6 +8,25 @@ If you are a newbie to RecyclerView class, I will partially highlight some of th
 
 Contain the vertical adapter class and the list of text added to the vertical recycler view as shown below.
 
+  
+# Gradle
+   
+```java
+
+repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+   }
+   
+dependencies {
+
+  	...
+    implementation 'com.github.Mahdimoaz:RecyclerViewHorizontalCenterSelected:1.0.0'
+    
+  }
+```
+
+
 **MainActivity.java**
 ```java
    public class MainActivity extends AppCompatActivity implements ItemListener {
