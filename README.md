@@ -10,7 +10,7 @@ Contain the vertical adapter class and the list of text added to the vertical re
 
   <img src="https://user-images.githubusercontent.com/13780989/62929695-36b21b00-bdd0-11e9-9bc6-10ce15892e1d.jpg" width="148">
   
-  ![Alt Text(https://github.com/mahdimoaz/RecyclerViewHorizontalCenterSelected/blob/master/%DB%B2%DB%B0%DB%B1%DB%B9%DB%B0%DB%B8%DB%B1%DB%B4_%DB%B1%DB%B1%DB%B0%DB%B3%DB%B3%DB%B3.gif)
+![AltText](https://github.com/mahdimoaz/RecyclerViewHorizontalCenterSelected/blob/master/%DB%B2%DB%B0%DB%B1%DB%B9%DB%B0%DB%B8%DB%B1%DB%B4_%DB%B1%DB%B1%DB%B0%DB%B3%DB%B3%DB%B3.gif )
 
  
   
